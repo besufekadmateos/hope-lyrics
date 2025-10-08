@@ -1,0 +1,32 @@
+name: myhive
+description: A Flutter lyrics app using Hive
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.5.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.6
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/amharic.json
+    - assets/oromo.json
+    - assets/tigrigna.json
+    - assets/wolayta.json
+    - assets/old.json
+    - assets/choir.json
+
